@@ -1,0 +1,144 @@
+{
+  "ontology term": {
+    "ontology term": [
+      "ontology has part",
+      "reverse_ontology has part",
+      "ontology part of",
+      "reverse_ontology part of",
+      "ontology subclass of",
+      "reverse_ontology subclass of"
+    ]
+  },
+  "go": {
+    "go": [
+      "go subtype of",
+      "reverse_go subtype of"
+    ],
+    "gene": [
+      "reverse_go gene"
+    ],
+    "non coding rna": [
+      "reverse_go rna"
+    ]
+  },
+  "transcript": {
+    "gene": [
+      "reverse_transcribed to",
+      "transcribed from"
+    ],
+    "protein": [
+      "translates to",
+      "reverse_translation of"
+    ]
+  },
+  "non coding element": {},
+  "exon": {},
+  "super enhancer": {
+    "gene": [
+      "super enhancer to gene association"
+    ]
+  },
+  "sequence variant": {},
+  "gene": {
+    "transcript": [
+      "transcribed to",
+      "reverse_transcribed from"
+    ],
+    "gene": [
+      "gene to gene coexpression association",
+      "reverse_gene to gene coexpression association",
+      "transcription factor to gene association",
+      "reverse_transcription factor to gene association"
+    ],
+    "pathway": [
+      "gene to pathway association"
+    ],
+    "go": [
+      "go gene"
+    ],
+    "enhancer": [
+      "reverse_enhancer to gene association"
+    ],
+    "promoter": [
+      "reverse_promoter to gene association"
+    ],
+    "super enhancer": [
+      "reverse_super enhancer to gene association"
+    ],
+    "regulatory_region": [
+      "reverse_regulatory region to gene association"
+    ],
+    "snp": [
+      "reverse_gtex variant to gene expression association",
+      "reverse_closest gene to variant association",
+      "reverse_upstream gene to variant association",
+      "reverse_downstream gene to variant association",
+      "reverse_in gene to variant association"
+    ]
+  },
+  "structural variant": {},
+  "enhancer": {
+    "gene": [
+      "enhancer to gene association"
+    ]
+  },
+  "snp": {
+    "gene": [
+      "gtex variant to gene expression association",
+      "closest gene to variant association",
+      "upstream gene to variant association",
+      "downstream gene to variant association",
+      "in gene to variant association"
+    ],
+    "snp": [
+      "topld in linkage disequilibrium with",
+      "reverse_topld in linkage disequilibrium with"
+    ]
+  },
+  "genomic variant": {},
+  "motif": {},
+  "non coding rna": {
+    "go": [
+      "go rna"
+    ]
+  },
+  "epigenomic feature": {},
+  "protein": {
+    "transcript": [
+      "reverse_translates to",
+      "translation of"
+    ],
+    "protein": [
+      "post translational interaction",
+      "reverse_post translational interaction"
+    ],
+    "gene ontology": [
+      "reverse_go gene product"
+    ]
+  },
+  "chromosome chain": {},
+  "pathway": {
+    "gene": [
+      "reverse_gene to pathway association"
+    ],
+    "pathway": [
+      "parent pathway of",
+      "reverse_parent pathway of",
+      "child pathway of",
+      "reverse_child pathway of"
+    ]
+  },
+  "3d genome structure": {},
+  "histone modification": {},
+  "chromatin state": {},
+  "coding element": {},
+  "regulatory region": {},
+  "dnase hypersensitivity site": {},
+  "position entity": {},
+  "tad": {},
+  "promoter": {
+    "gene": [
+      "promoter to gene association"
+    ]
+  }
+}
