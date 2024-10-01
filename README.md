@@ -48,9 +48,10 @@ pip install pyyaml
 git clone <repository-url>
 ```
 
-### Navigate to the project directory:
+### Navigate to the project directory and install:
 ```bash
 cd schema-parser
+pip install -r requirements.txt
 ```
 
 Place the YAML schema you want to process in the same directory as schema_parser.py. By default, the script reads schema_config.yaml.
